@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+}
+ul li{
+    display: inline;
+}
+img{
+    border: none;
+}
+p{
+    padding: 10px 0;
+}
+#back{
+    background-image: url(../images/title.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+    width: 640px;
+    min-height: 368px;
+    position: relative; 
+    padding: 120px 20px 20px 40px ;
+}
+
+#back a img{
+border: solid #0ab1e6 3px;
+border-radius: 5px;
+}
+#back a hover{
+    opacity: 0.7;
+}
